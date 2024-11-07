@@ -26,7 +26,7 @@ server.listen(3000, () => {
     console.log("Server is running on port 3000");
 });
 
-const MONGO_URI = "mongodb+srv://asm2212:asm2212@cluster0.b88ie.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
+const MONGO_URI = "";
 
 mongoose.Promise = promises;
 
