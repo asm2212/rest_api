@@ -5,7 +5,7 @@ This project demonstrates how to build a REST API using Node.js, Express, TypeSc
 It includes secure routes, type safety, and CRUD (Create, Read, Update, Delete) operations connected to a MongoDB database.
 
 ##  Features 🌟
-Authentication 🔐: Secure routes with JWT-based authentication.
+Authentication 🔐: Secure routes with cryp
 
 Type Safety 🦾: TypeScript ensures robust and reliable code.
 
