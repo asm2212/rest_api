@@ -1,0 +1,18 @@
+{
+  "name": "rest_api",
+  "version": "1.0.0",
+  "description": "NEM",
+  "main": "index.js",
+  "scripts": {
+   "start": "nodemon --watch src --ext ts,js --exec ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
