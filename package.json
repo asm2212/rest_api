@@ -4,15 +4,23 @@
   "description": "NEM",
   "main": "index.js",
   "scripts": {
-   "start": "nodemon --watch src --ext ts,js --exec ts-node ./src/index.ts",
+    "start": "nodemon --watch src --ext ts,js --exec ts-node ./src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/compression": "^1.7.5",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "compression": "^1.7.5",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5"
   }
 }
